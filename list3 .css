@@ -1,0 +1,68 @@
+Reset
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+body{
+    background:#f2f2f2;
+    font-family:Arial, sans-serif;
+    padding:30px;
+}
+
+/* Recipe Card */
+.recipe{
+    width:700px;
+    margin:auto;
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+h1{
+    text-align:center;
+    color:#d35400;
+    margin-bottom:20px;
+}
+
+/* Image */
+img{
+    width:100%;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+/* Sub Heading */
+h2{
+    color:#2c3e50;
+    margin-top:20px;
+    margin-bottom:10px;
+    border-bottom:2px solid #ddd;
+    padding-bottom:5px;
+}
+
+/* Lists */
+ul,
+ol{
+    margin-left:30px;
+    margin-bottom:20px;
+}
+
+/* List Items */
+li{
+    padding:8px;
+    font-size:18px;
+}
+
+/* Hover Effect */
+li:hover{
+    background:#ffeaa7;
+    color:#e74c3c;
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.3s;
+}
